@@ -175,7 +175,8 @@
 
 		# vim $ORACLE_HOME/netweork/admin/listener.ora
 
-	
+	![](https://i.imgur.com/Lrxeb6u.png)	
+
 19. The reason we reload the .bash_profile is the 18 step, need the new configuration.
 
 20. And then login to the database using the system account and the password chosen in step 11 of the previous section.
@@ -194,7 +195,7 @@
 		SQL> INSERT INTO NamesTBL (name) VALUES ('Admin');
 		SQL> SELECT * FROM NamesTBL;
 
-	
+	![](https://i.imgur.com/cHSapKa.png)
 
 21. To enable the database service to start automatically on boot, add the following lines to /etc/systemd/system/oracle-rdbms.service file.
 
@@ -217,5 +218,7 @@
 		WantedBy=multi-user.target
 
 22.Finally, we need to indicate that the tecmint database should be brought up during boot in /etc/oratab(Y:Yes)
+
+	![](https://i.imgur.com/d6qu0vt.png)
 
 	
