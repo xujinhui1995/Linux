@@ -2,10 +2,10 @@
 
 1. packages needed
 
-	- instantclient-sqlplus-windows.x64-12.2.0.1.0.zip
+	- plsqldev1207x64.msi
 	- instantclient-basic-windows.x64-12.2.0.1.0.zip
 
-	We decompress the "basic" file to such as D:\; Then decompress the "sqlplus" file to the basic directory.
+	We install the plsqldev1207x64 file to such as D:\PLSQL, then decompress the "basic" file to  PLSQL.
 
 2. After that, we need make a new directory in sqlplus directory, named network, touch a new file named tnsnames.ora, to config the listener.
 
