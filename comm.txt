@@ -1,0 +1,3 @@
+echo -e "\e[COLOR1;COLOR2m<YOUR TEXT HERE>\e[0m"
+    COLOR1:foreground
+    COLOR2:background
