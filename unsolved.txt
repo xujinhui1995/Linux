@@ -1,0 +1,2 @@
+win10 connect to remote samba
+not test linux connect to remote samba
