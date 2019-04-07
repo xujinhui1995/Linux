@@ -1,4 +1,5 @@
 win10 connect to remote samba
 not test linux connect to remote samba
+linux can not communate with the remote samba
 
 nfs installation
