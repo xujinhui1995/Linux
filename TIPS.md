@@ -105,3 +105,8 @@
        
         # yum -y install zsh
         # sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+        # git clone https://github.com/skywind3000/vim.git
+        # cp vim/etc/zshrc.zsh ~/.zshrc
+        # scp root@[MY PRIVATE IP]:/root/.antigen/antigen.sh /root/.antigen/antigen.sh
+        # zsh
+        # chsh -s $(which zsh)
