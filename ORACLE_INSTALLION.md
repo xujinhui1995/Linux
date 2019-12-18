@@ -73,8 +73,8 @@
 	在使用SVN远程连接的情况下，会提示`display must be configured to display at least 256 colors`，这是因为默认VNC连接只能为root用户，而Oracle安装时用的时oracle用户，因此需要解除这个限制
 		
 		# su
-		# export DISPLAY=localhost:1
-		# host +
+		# export DISPLAY=:0.0
+		# xhost +
 
 	这里看到的说法就是，本来是只有root用户能够通过VNC服务远程进行桌面连接，其他的用户没有此权限，所以在root的用户的基础上，将root作为显示服务器，`host +`则是将其他用户作为客户端允许其他用户通过root用户进行连接。
 
