@@ -5,6 +5,7 @@
 2. 安装GNOME桌面
 	
 		# yum groupinstall "GNOME Desktop" "Graphical Administration Tools" 
+                # yum groupinstall "Desktop" "X Windows System" --RHEL
 
 	进入桌面
 	
