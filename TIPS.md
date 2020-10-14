@@ -63,7 +63,7 @@
 
 	通过dd命令创建一个临时的swap file，大小为1Gb
 	
-		# dd if=/dev/zore of=/home/oracle/swap.file bs=1024k count=1024
+		# dd if=/dev/zero of=/home/oracle/swap.file bs=1024k count=1024
 
 	通过mkswap命令格式化上步中的临时交换文件
 
